@@ -2,6 +2,11 @@ body{
     color: black
 }
 
+.name{
+  justify-content: left;
+  color: white;
+}
+
 .topnav {
     background-color: black;
     overflow: hidden;
@@ -24,4 +29,26 @@ body{
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+.container1{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row1-image{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  border-radius: 90%;
+  height: -50%
+}
+
+.aboutme{
+  flex: 0 0 50%;
+  max-width: 50%;
 }
